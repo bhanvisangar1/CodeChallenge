@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/id_textview"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/avatar_image"
+        android:paddingRight="12dp"
+        tools:text="123456" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/id_textview"
+        tools:text="Bhanvi Sangar" />
+
+    <TextView
+        android:id="@+id/owner_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_textview"
+        android:layout_below="@+id/id_textview"
+        android:paddingRight="12dp"
+        tools:text="bhanvi owener login" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/owner_login"
+        android:layout_toRightOf="@+id/owner_login"
+        tools:text="Ennglish" />
+
+    <TextView
+        android:id="@+id/updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/owner_login"
+        tools:text="12/23/2016" />
+
+</RelativeLayout>

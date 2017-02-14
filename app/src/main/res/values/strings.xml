@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CodeChallenge</string>
+    <string name="header_title">Getting All Repos</string>
+    <string name="url_info">https://api.github.com/users/ocramius/repos</string>
+</resources>
